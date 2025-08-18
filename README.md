@@ -1,4 +1,4 @@
-📖 Description
+## 📖 Description
 
 RoomSearch is a modern, React-based web application designed to make finding accommodation simple and hassle-free. 🏠✨
 
@@ -20,7 +20,7 @@ Future updates will include:
 
 💬 Chat or connect with landlords/room owners
 
-✨ Features
+## ✨ Features
 
 🏘️ Room Listings with Filters
 Easily browse through available rooms and refine results with smart filters.
@@ -45,7 +45,7 @@ Optimized for all devices — whether on desktop 💻, tablet 📊, or mobile �
 4. Start the development server 🚀 
    `npm start`
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -61,10 +61,10 @@ Contributions, issues, and feature requests are welcome!
 
 6. Open a pull request
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this software, provided that proper attribution is given.
 
-MIT License
-gi
+
+
