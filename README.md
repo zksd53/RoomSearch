@@ -24,11 +24,10 @@ RoomSearch ek React-based application hai jisme users apne requirements ke hisaa
 
 ## Usage
 
-Browser me open karo: [http://localhost:3000](http://localhost:3000)
+: [http://localhost:3000](http://localhost:3000)
 
 ## Contributing
-
-Agar koi bugs mile ya improvements ho, pull requests bhejo.
+Send pull if issue found
 
 ## License
 
