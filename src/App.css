@@ -1,38 +1,118 @@
 .App {
   text-align: center;
+  font-family: serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading-bar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;  
+  align-items: center;
+  width: 98%;
+  padding: 10px 30px;
+  background-color: white; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+/* Logo + Home Icon */
+.home-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;  
+}
+
+.homeBox {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: linear-gradient(to right, #1E90FF, #8A2BE2);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.home-logo-container h1 {
+  font-size: 32px;
+  font-weight: bold;
+  background: linear-gradient(to right, #1E90FF, #8A2BE2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin: 0;
+}
+
+/* Navigation Buttons (centered) */
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0 auto; /* keep centered */
+}
+
+.nav-buttons button {
+  background: none;       
+  color: #1E90FF;         
+  border: none;           
+  padding: 8px 15px;      
+  cursor: pointer;        
+  font-weight: bold;
+  font-size: 13px;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.nav-buttons button:hover {
+  color: #8A2BE2;         
+  transform: scale(1.05); 
+}
+
+/* Login + Signup Buttons Container */
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+  margin-right: 170px;  
+}
+
+/* Login Icon Button */
+.icon-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  color: #1E90FF;   
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s, background-color 0.2s;
+  background: none;
+}
+
+.icon-button:hover {
+  color: #8A2BE2;
+  transform: scale(1.05);
+}
+
+/* Signup Button */
+.sign-up {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 5px;  
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #1E90FF, #8A2BE2);
+  color: white;           
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  height: 30px;
+  width: 100px;            
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sign-up:hover {
+  background: linear-gradient(to right, #8A2BE2, #1E90FF);
+  transform: scale(1.05);
 }
