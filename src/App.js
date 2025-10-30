@@ -1,5 +1,5 @@
 import './App.css';
-import './styles.css';
+
 
 function App() {
   return (
@@ -91,10 +91,7 @@ function App() {
                   clipRule="evenodd" />
           </svg>
         </div>
-      </div>
-
-      {/* Login + Signup Buttons */}
-      <div className="auth-buttons">
+           <div className="auth-buttons">
         <button className="icon-button">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                viewBox="0 0 24 24" strokeWidth={1.5}
@@ -110,7 +107,6 @@ function App() {
           </svg>
           Login
         </button>
-
         <button className="sign-up">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                viewBox="0 0 24 24" strokeWidth={1.5}
@@ -125,7 +121,10 @@ function App() {
           </svg>
           Signup
         </button>
+          </div>
       </div>
+
+      
 
     </div>
 
@@ -134,27 +133,39 @@ function App() {
             Premium Travel Experience
           </button>
       </div>
-
+      
   <div className="hero-section">
-  <div className="hero-text">
-    <p className ="normal-description">Discover</p>
-    <p className ="Extraordinary">Extraordinary</p>
-    <p className ="normal-description">Spaces</p>
-    <p className = "para-text">Embark on a journey of luxury and comfort. Experience handpicked</p> 
-    <p className ="para1-text">accomodations that redefine hospitality across the globe.</p>
+    <div className="hero-text">
+      <p className ="normal-description">Discover</p>
+      <p className="Extraordinary animated-gradient-text">
+      <span className="gradient-overlay"></span>
+      <span className="text-content">Extraordinary</span>
+    </p>
+      <p className ="normal-description">Spaces</p>
+      <p className = "para-text">Embark on a journey of luxury and comfort. Experience handpicked</p> 
+      <p className ="para1-text">accomodations that redefine hospitality across the globe.</p>
+    </div>
+  <div>
+
+  <div className = "search-bar">
+          <div className ="input-box">
+            <span className ="icon">📍</span>
+              <input type = "text" placeholder = "Where are you going?"/>
+              <span className="icon">📅</span>
+              <input type="date" placeholder="yyyy-mm-dd"/>
+              <span className="icon">📅</span>
+              <input type="date" placeholder="yyyy-mm-dd"/>
+              <span className = "icon">👥</span>
+              <input type = "number" placeholder = "guests"/>
+              <button className = "size">search</button>
+          </div>
+   
+    
   </div>
 
-  <div>
-  <button className="outer-box">
-    Heart
-  </button>
-</div>
-
-
-</div>
-    
+  </div>
+</div> 
   </div>
   );
 }
-
 export default App;
